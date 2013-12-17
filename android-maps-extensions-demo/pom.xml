@@ -23,18 +23,13 @@
 			<groupId>com.androidmapsextensions</groupId>
 			<artifactId>android-maps-extensions</artifactId>
 			<version>${project.parent.version}</version>
-			<type>apklib</type>
+			<type>aar</type>
 		</dependency>
 		<dependency>
-            <groupId>android.support</groupId>
-            <artifactId>compatibility-v7-appcompat</artifactId>
-            <version>19</version>
-            <type>apklib</type>
-        </dependency>
-        <dependency>
-            <groupId>android.support</groupId>
-            <artifactId>compatibility-v7-appcompat</artifactId>
-            <version>19</version>
+            <groupId>com.android.support</groupId>
+            <artifactId>appcompat-v7</artifactId>
+            <version>19.0.0</version>
+            <type>aar</type>
         </dependency>
 	</dependencies>
 

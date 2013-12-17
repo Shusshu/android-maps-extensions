@@ -5,7 +5,7 @@
 
 	<name>Android Maps Extensions</name>
 	<artifactId>android-maps-extensions</artifactId>
-	<packaging>apklib</packaging>
+	<packaging>aar</packaging>
 
 	<parent>
 		<groupId>com.androidmapsextensions</groupId>
@@ -26,11 +26,7 @@
 		<dependency>
 			<groupId>${google.play.services.groupId}</groupId>
 			<artifactId>${google.play.services.artifactId}</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>${google.play.services.groupId}</groupId>
-			<artifactId>${google.play.services.artifactId}</artifactId>
-			<type>apklib</type>
+			<type>aar</type>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>

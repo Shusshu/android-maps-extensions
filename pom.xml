@@ -26,8 +26,8 @@
 		<support.v4.version>19.0.0</support.v4.version>
 
 		<google.play.services.groupId>com.google.android.gms</google.play.services.groupId>
-		<google.play.services.artifactId>google-play-services</google.play.services.artifactId>
-		<google.play.services.version>13</google.play.services.version>
+		<google.play.services.artifactId>play-services</google.play.services.artifactId>
+		<google.play.services.version>4.0.30</google.play.services.version>
 	</properties>
 
 	<dependencyManagement>
@@ -46,12 +46,7 @@
 				<groupId>${google.play.services.groupId}</groupId>
 				<artifactId>${google.play.services.artifactId}</artifactId>
 				<version>${google.play.services.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>${google.play.services.groupId}</groupId>
-				<artifactId>${google.play.services.artifactId}</artifactId>
-				<version>${google.play.services.version}</version>
-				<type>apklib</type>
+				<type>aar</type>
 			</dependency>
 			<dependency>
 				<groupId>junit</groupId>
