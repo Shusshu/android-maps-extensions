@@ -23,11 +23,11 @@
 
 		<support.v4.groupId>com.android.support</support.v4.groupId>
 		<support.v4.artifactId>support-v4</support.v4.artifactId>
-		<support.v4.version>19.0.0</support.v4.version>
+		<support.v4.version>19.0.1</support.v4.version>
 
 		<google.play.services.groupId>com.google.android.gms</google.play.services.groupId>
 		<google.play.services.artifactId>play-services</google.play.services.artifactId>
-		<google.play.services.version>4.0.30</google.play.services.version>
+		<google.play.services.version>4.1.32</google.play.services.version>
 	</properties>
 
 	<dependencyManagement>
@@ -84,7 +84,7 @@
 				<plugin>
 					<groupId>com.jayway.maven.plugins.android.generation2</groupId>
 					<artifactId>android-maven-plugin</artifactId>
-					<version>3.8.2</version>
+					<version>3.8.3-SNAPSHOT</version>
 					<extensions>true</extensions>
 					<configuration>
 						<sdk>
